@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, Arial,  sans-serif;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+:root {
+    --pryc: #0071f9
+}
+.hlogo {
+    width: 100%;
+    object-fit: fill;
+}
+.hl {
+    width: 30%;
+    display: inline;
+}
+h5 {
+    color: rgb(177, 177, 177);
+}
+nav {
+    color: var(--pryc-pryc);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.n-links > a {
+    margin-left: 50px;
+}
+h1 {
+    width: 100%;
+}
+.hero {
+    padding: 5%;
+}
+.hh1 {
+    width: 80%;
+    background-color: var( --pryc);
+    color: white;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card {
+    background-color: white;
+    max-width: 300px;
+    border: 5px solid black;
+    padding: 20px;
+    min-height: 200px;
+}
+.card > p {
+    color: grey;
+}
+cards:hover {
+    box-shadow: 20px;
+}
+.cards {
+    width: 100%;
+    align-items: center;
+    gap: 5%;
+}
+.hh2 {
+
+}
