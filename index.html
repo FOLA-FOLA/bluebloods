@@ -4,11 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <link rel="shortcut icon" type="image/png" href="images/BLUEBLOODS-01.png"/>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
         <link href="https://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet" type="text/css">
         <title>Bluebloods HQ</title>
         <script src="https://kit.for"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     </head>
     <script>
         $("document").click(function(){
@@ -36,66 +40,114 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#">Work</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact Us</a>
-                    </li>
                   </ul>
+                  <button class="btn my-2 my-sm-0" type="submit">Contact Us</button>
                 </div>
-              </nav>              
+              </nav>                
         </header>
         <main>
-            <section class="animation">
-                <div class="container">
-                    <div class="container text-center">
-                        <div class="news-ticker">
-                          BUILDING SUPER BRANDS
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="hero">
-                <div class="container">
-                    <h1>We love <span>Visual</span></h1>
+                <div class="ticker-wrap bg-black text-center text-white p-3">
+                    <div class="ticker">WE LOVE "VISUAL" WE LOVE "VISUAL" WE LOVE "VISUAL" WE LOVE "VISUAL"We love visual We love visual We love visual We love visual We love visual We love visual We love visual We love visual We love visual We love visual We love visual We love visual We love visual</div>
+                </div>                  
+                <div class="container-fluid container">
+                    <h1 class="hero-text">We love <span>"Visual"</span></h1>
                 </div>
             </section>
             <section>
-               <div class="container">
+                <div class="container-fluid container">
+                    <div>
+                        <h2>WHO WE'VE SERVED</h2>
+                        <p>Look at some of our selected work</p>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+               <div class="container-fluid container">
                     <div class="service">
-                        <h3>WHAT WE DO</h3>
-                        <div id="serv">
-                            <a>
-                                <h4>Brand identity</h4>
-                            </a>
-                            <a>
+                        <h3>WHAT WE DO</h3
+                        <div class="cards-div">
+                            <div class="card branding-card">
+                                <i class="fa-duotone fa-palette"></i>
+                                <h4>Branding</h4>
+                            </div>
+                            <div class="card edu-card">
+                                <i class="fa-duotone fa-layer-group"></i>
+                                <h4>Design education</h4>
+                            </div>
+                            <div class="card front-end-card">
+                                <i class="fa-duotone fa-flask"></i>
                                 <h4>Front-end development</h4>
-                            </a>
+                            </div>
                         </div>
                     </div>
                </div>
             </section>
+            <section>
+                <div class="container-fluid container">
+                    <h5></h5>
+                    <p>We love to see ideas come to life.</p>
+                </div>
+            </section>
+            <section>
+                <div class="container-fluid container form-container">
+                    <div>
+                        <h3>Messages are responded to as soon as recieved</h3>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>                      
+                </div>
+            </section>
         </main>
         <footer class="bg-light py-3">
-            <div class="container">
+            <div class="container-fluid container">
               <div class="row">
                 <div class="col-6 col-md-4">
                   <img src="images/logo.png" alt="Logo" class="footer-logo">
+                  <div class="copyright-div">
+                    <p>© Copyright Bluebloods Innovations, 2022-2023</p>
+                    <p>All Rights Reserved</p>
+                  </div>
                 </div>
                 <div class="col-6 col-md-8">
                   <div class="row">
                     <div class="col-6 col-md-4">
                       <h5>Links</h5>
                       <ul class="list-unstyled">
-                        <li><a href="#">Our Instagram</a></li>
-                        <li><a href="#">Community</a></li>
-                        <li><a href="#">Send a Mail</a></li>
+                        <li><a href="#" class="footer-link">Our Instagram</a></li>
+                        <li><a href="#" class="footer-link">Community</a></li>
+                        <li><a href="#" class="footer-link">Send a Mail</a></li>
                       </ul>
                     </div>
                     <div class="col-6 col-md-4">
                       <h5>Services</h5>
                       <ul class="list-unstyled">
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
+                        <li><a href="#" class="footer-link">Services</a></li>
+                        <li><a href="#" class="footer-link">About</a></li>
+                        <li><a href="#" class="footer-link">Work</a></li>
                       </ul>
                     </div>
                   </div>

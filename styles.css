@@ -10,14 +10,43 @@ html, body {
 .hero > .container > h1 {
     font-size: 100px;
 }
+.hero {
+
+}
 h1 {
     font-size: 300px;
 }
+section {
+    min-height: 100vh;
+    width: 100vw;
+}
+span {
+    font-weight: "bold";
+}
+.navbar .btn {
+    margin-left: 50px;
+}  
 :root {
     --pryc: #0071f9
 }
+.card {
+    display: inline-block;
+    width: 
+}
+form {
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px;
+  }
+.form-group {
+    margin: 20px;
+}
+.form-container {
+    background-color: var(--pryc);
+    width: 100%;
+}
 .container {
-    padding: 30px;
+    margin: 0 50px;
 }
 .navbar-brand img {
     width: 250px;
@@ -40,13 +69,27 @@ h1 {
     color: #000;
     cursor: pointer;
   }
-  .news-ticker {
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    animation: ticker 5s linear infinite;
+  .hero-text {
+    color: white;
+    position: relative;
+    margin-top: -400px;
   }
-
+  .ticker-wrap {
+    height: 100vh;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+  }
+  .ticker {
+    position: block;
+    white-space: nowrap;
+    animation: ticker 30s ease infinite;
+    color: var(--pryc);
+    font-size: 900px;
+  } 
+  .bg-black {
+    background-color: 
+  }
   @keyframes ticker {
     0% {
       transform: translate3d(0, 0, 0);
@@ -59,5 +102,15 @@ h1 {
     width: 300px;
 }
 footer {
+    min-height: 50vh;
+}
+.footer-link {
     text-decoration: none;
+    font-size: 20px;
+    color: rgb(149, 149, 149);
+    margin: 3px 0;
+}
+.copyright-div {
+    margin: 10px 0;
+    color: black;
 }
